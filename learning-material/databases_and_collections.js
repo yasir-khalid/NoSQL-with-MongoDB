@@ -33,3 +33,6 @@ db.studentDetails.find()
 // chain in the .pretty() commands to prettify the json object
 db.studentDetails.find().pretty()
 
+// gets you count of documents in the <collection>
+db.<collection>.count(query, options) // .countDocuments() is the latest chain comment
+// .count() is depreciated
